@@ -6,7 +6,6 @@
 # dotenv files
 .env
 
-*.db
 *.db-shm
 *.db-wal
 

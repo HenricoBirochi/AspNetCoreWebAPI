@@ -60,7 +60,7 @@ namespace SmartSchool.WebAPI.Controllers
             if(alu == null) return BadRequest("Aluno não encontrado");
 
             _context.Update(aluno);
-            _context.SaveChanges();
+            _context.SaveChanges(); 
             return Ok(aluno);
         }
 
